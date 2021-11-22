@@ -1,0 +1,13 @@
+Repositorio Web => contenido publicado en Github
+Repositorio Local => contenido del desarrollo en nuestro ordenador personal 
+
+1. crea repositorio publico en git
+2. crear carpeta en el escritorio para el repositiorio
+3. clic en el buscador dentro de la carpeta TuquiGit
+4. reemplazar la direccion del buscador por cmd (video 3- 29:50)
+5. crear un repositorio git (git init)
+6. establecer conexion entre githyb y este repositorio local(git remote add oficial https://github.com/nataliaAngarita/Tuqui.git)
+7. direcciones remotas enlazadas (git remote oficial -v)
+8. archivos nuevos agrgados al repositorio local (git status)
+9. agregar todo lo que es nuevo (git add .)
+10. agregar un comentario (git commit -m)
