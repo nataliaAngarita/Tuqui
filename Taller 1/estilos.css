@@ -1,0 +1,8 @@
+body {
+    background:/*linear-gradient(0deg, rgba(0, 0, 255, 0.3), rgba(0, 0, 255, 0.3)),*/ url(./Imagenes/fondo.jpg) ;
+    background-position: 40% 40%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: white;
+
+}
