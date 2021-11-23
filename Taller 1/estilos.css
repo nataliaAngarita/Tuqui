@@ -47,3 +47,13 @@ button {
     padding-right: 30px;
     word-spacing: 8px;
 }
+
+button:hover {
+    background-color: rgba(224, 134, 134, 0.979);
+}
+/*
+-width =>ajusta el tamaño horizontal de una seccion (div)
+-heigth =>ajusta el tamaño vertical de una seccion (div)
+-padding =>permite ajusta posicion prevalecioendo la informacion del background
+-margin => ajusta posicion sin tener en cuenta el fondo
+*/
