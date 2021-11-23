@@ -1,0 +1,9 @@
+/*programacion con css*/
+h1 {
+    color:blueviolet;
+    font-size: 100px;
+    text-align: center;
+    background-color: burlywood;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Lobster', cursive;
+}
