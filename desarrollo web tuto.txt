@@ -11,3 +11,5 @@ Repositorio Local => contenido del desarrollo en nuestro ordenador personal
 8. archivos nuevos agrgados al repositorio local (git status)
 9. agregar todo lo que es nuevo (git add .)
 10. agregar un comentario (git commit -m)
+11. subir el contenido a la direccion oficial de 
+github y el nombre de la rama (git push oficial master)
