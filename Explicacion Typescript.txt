@@ -1,0 +1,25 @@
+Typescript
+
+Lenguaje estatico
+	normalmente requiere especificar tipos de variables
+	number, string, array...
+	java, c++, javascript, typescript
+
+Lenguaje dinamico
+	programacion directa
+	programacion es directa
+
+const => valores constantes que no varian
+var => variables que pueden adoptar diferentes valores
+
+Video 10 (condiciones if 1:18)
+	(ciclo for 1:20)
+	(ciclo while 1:28)
+	(ciclo do-while 1:29)
+	(Estructura de datos array 1:31)
+Video 11 
+	(Ejercicio Typescript)
+
+
+
+
