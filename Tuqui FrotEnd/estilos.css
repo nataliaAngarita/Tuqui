@@ -76,3 +76,149 @@ label {
     color:black;
     font-weight: bold;
 }
+
+.fondo{
+    background: #E5E5E5;
+
+}
+.lateral {
+    position: absolute;
+    width: 204px;
+    height: 627px;
+    left: 0px;
+    top: 0px;
+    background: #067368;
+    
+}
+.barra {
+    position: absolute;
+    width: 1120px;
+    height: 69px;
+    left: 204px;
+    top: -3px;
+    background: #C7FDE7;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+#boton {
+    background-color: #C7FDE7;
+    border: none;
+    color: black;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight:bold;
+    border-radius: 10px;
+    left: 20%;
+
+
+
+}
+#boton:hover {
+    background-color: rgba(139, 255, 241, 1);
+  }
+
+.contenedor_boton {
+    position: absolute;
+    /*background-color: #FFB733;*/
+    top: 90px; 
+    left: 30px;
+    width: 145px;
+    height: 450px;
+}
+.logo_nombre {
+    position: absolute;
+    top: 11px; 
+    left: 30px;
+    width: 145px;
+    
+}
+.contenedor_cuentas {
+    position: absolute;
+    width: 1120px;
+    height: 558px;
+    left: 204px;
+    background: #E5E5E5;
+    top:66px;
+
+}
+.titulo_pagina {
+    position: relative;
+    left:10px;
+    font-size: 30px;  
+    color:black;
+    font-weight: bold;
+}
+.barra_scroll {
+    background-color:  #D0CECE;
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+  /*tarjetas */
+  .fuente_tarjeta {
+    left: 10px;
+    font-size: 16px;  
+    color:black;
+  }
+
+  /*tarjetas efectivo */
+  .tarjeta_efectivo {
+    width: 270px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: rgba(240, 170, 47, 0.5);
+    border: 3px solid #F0AA2F;
+
+    
+  }
+  #boton_tarjeta_efectivo {
+    background-color: rgba(240, 170, 47, 0.5);
+    border: none;
+    color: black;
+    padding: 11px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight:bold;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+
+  }
+  #boton_tarjeta_efectivo:hover {
+    background-color: #F0AA2F;
+  }
+
+
+/*tarjetas electronico */
+  .tarjeta_electronico {
+    width: 270px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: rgba(230, 108, 51, 0.5);
+    border: 3px solid #E66C33;
+
+    
+  }
+  #boton_tarjeta_electronico {
+    background-color: rgba(230, 108, 51, 0.5);
+    border: none;
+    color: black;
+    padding: 11px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight:bold;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+
+  }
+  #boton_tarjeta_electronico:hover {
+    background-color: #E66C33;;
+  }
+
+
+
+  
