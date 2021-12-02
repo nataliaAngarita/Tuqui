@@ -88,26 +88,79 @@
             <h1 class="titulo_pagina">Dinero Efectivo</h1>
         <br>
             <div class="barra_scroll">
+                <div class="boton_plusef">
+                    <button id="boton_plusef" type="button"><i class="fa fa-plus-circle"></i></button>
+                </div>
                 <div class="tarjeta_efectivo">
+                    
                     <h1 class="fuente_tarjeta">Cuenta de Ahorros Bancolombia</h1>
                     <h1 class="fuente_tarjeta">$1,888,000</h1>
-                    <p style="padding-left: 210px;"><button id="boton_tarjeta_efectivo" type="button"><i class="fa fa-search"></i></button></p>
+                    <p style="padding-left: 210px;"><button id="boton_tarjeta_efectivo" type="button"><i class="fa fa-trash"></i></button></p>
                 </div>
                 <div class="tarjeta_efectivo">
                     <h1 class="fuente_tarjeta">Cuenta de Ahorros Bancolombia</h1>
                     <h1 class="fuente_tarjeta">$1,888,000</h1>
-                    <p style="padding-left: 210px;"><button id="boton_tarjeta_efectivo" type="button"><i class="fa fa-search"></i></button></p>
+                    <p style="padding-left: 210px;"><button id="boton_tarjeta_efectivo" type="button"><i class="fa fa-trash"></i></button></p>
                 </div>
                 <div class="tarjeta_efectivo">
                     <h1 class="fuente_tarjeta">Cuenta de Ahorros Bancolombia</h1>
                     <h1 class="fuente_tarjeta">$1,888,000</h1>
-                    <p style="padding-left: 210px;"><button id="boton_tarjeta_efectivo" type="button"><i class="fa fa-search"></i></button></p>
+                    <p style="padding-left: 210px;"><button id="boton_tarjeta_efectivo" type="button"><i class="fa fa-trash"></i></button></p>
                 </div>
 
             </div>
-        <br>  
-            <h1 class="titulo_pagina">Dinero Electronico</h1>
-        <br>
+            <br>
+            <h1 class="titulo_pagina">Cuenta Nueva</h1>
+            <div class="form_dinero">
+                
+                <br>
+        
+                <form method="post">
+                    <!-- ID efectivo input -->
+                    <div>
+                        <label class="label_efectivo">ID&nbsp;&nbsp;<input type="text" name="idefectivo" disabled></label>
+                    </div>
+                    
+                    <!-- fecha input -->
+                    <div>
+                        <label class="label_efectivo">Fecha&nbsp;&nbsp;<input class="input_fecha" type="date" id="start" name="trip-start" value="2018-07-22" min="2001-01-01" max="2022-12-31"></label>
+                    </div>
+                    
+                    <!-- nombre efectivo input -->
+                    <div>
+                        <label class="label_efectivo">Nombre&nbsp;&nbsp;<input type="text" name="nombre_efectivo"></label>
+                    </div>
+                    <br>
+                    <!-- Botones registrar y actualizar -->
+                    <div class= "reg_act_ef">
+                        <button class="boton_ef" name="registrar_efectivo" disabled>Registrar</button>&nbsp;&nbsp;
+                        <button class="boton_ef" name="Actualizar_efectivo" onclick="openForm()">Actualizar</button>
+                        <div class="form-popup" id="myForm">
+                            <form action="/action_page.php" class="form-container">
+                              <div>
+                              <label><b>Nombre<input class="input_nombre"type="text"name="email" required></b></label>
+                              </div>
+                              <button type="submit" class="boton_actualizar">Actualizar</button>
+                              <button type="button" class="boton_cerrar" onclick="closeForm()">Cerrar</button>
+                            </form>
+                          </div>
+                          
+                          <script>
+                          function openForm() {
+                            document.getElementById("myForm").style.display = "block";
+                          }
+                          
+                          function closeForm() {
+                            document.getElementById("myForm").style.display = "none";
+                          }
+                          </script>
+                          
+
+                    </div>
+                                      
+                  </form>
+    
+            </div>
 
 
 
