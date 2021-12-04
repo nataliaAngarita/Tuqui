@@ -1,0 +1,48 @@
+<div class="contenedor">
+    <div class="child">
+        <div class="logo">
+            <img src="assets/logo.ico">
+        </div>
+    </div>
+    <div class="sesion-form">
+        <h1 class="bienvenida">¡Bienvenidos a Tuqui Tuqui !</h1>
+        <br>
+
+        <form method="post">
+            <!-- Email input -->
+            <div>
+              <input type="text" placeholder="Correo electronico">
+            </div>
+            <br>
+        
+            <!-- Password input -->
+            <div>
+                <input type="password" placeholder="Contraseña">
+            </div>
+            <br>
+        
+            <!-- Boton recordar -->
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                <label class="form-check-label" for="flexSwitchCheckChecked">Recordarme</label>
+            </div>
+            <!-- Boton entrar -->
+            <br>
+                
+                <a [routerLink]="['/tableroprincipal']" id="contra"><button class="login">Login</button></a>
+            <br>
+            <br>
+            <hr style="color: black; background-color: black; width:75%;" /> 
+            <div style="padding-top: 0.5rem; padding-left: 24%;">
+                <a href="" id="contra">Olvide mi contraseña</a>   
+            </div>
+            <div style="padding-top: 0.5rem; padding-left: 25%;">
+                <a [routerLink]="['/usuarios']" id="contra">Crear cuenta nueva</a>   
+            </div>
+        
+          </form>
+
+    </div>
+
+
+</div>
