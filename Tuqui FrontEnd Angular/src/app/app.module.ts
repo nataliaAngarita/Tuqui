@@ -8,6 +8,7 @@ import { UsuariosComponent } from './usuarios/usuarios.component';
 import { PrincipalComponent } from './principal/principal.component';
 import { TableroprincipalComponent } from './tableroprincipal/tableroprincipal.component';
 import { DineroEfectivoComponent } from './dinero-efectivo/dinero-efectivo.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { DineroEfectivoComponent } from './dinero-efectivo/dinero-efectivo.compo
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
