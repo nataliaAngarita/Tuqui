@@ -7,5 +7,5 @@ admin.site.register(CarteraAhorro)
 admin.site.register(Ingresos)
 admin.site.register(TipoEgreso)
 admin.site.register(Egreso)
-
+admin.site.register(Perfil)
 

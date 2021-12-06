@@ -1,6 +1,19 @@
 from django.db import models
 
 # Creación de modelos CRUD.
+class Perfil(models.Model):
+
+    #Atributos
+    nombres= models.CharField(max_length=50)
+    apellidos= models.CharField(max_length=50)
+    telefono= models.CharField(max_length=50)
+    correo= models.CharField(max_length=100)
+    contraseña= models.CharField(max_length=100)
+    #metodos
+    def _str_(Self):
+       #define el nombre de como se identifica
+       return Self.nombres
+
 class TipoCarteraAhorro(models.Model):
 
     #Atributos
