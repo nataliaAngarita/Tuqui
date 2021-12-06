@@ -1,4 +1,6 @@
 from django.db import models
+from django.db.models.deletion import SET_NULL
+from django.db.models.fields import IntegerField
 
 # Creación de modelos CRUD.
 class Perfil(models.Model):
@@ -10,9 +12,8 @@ class Perfil(models.Model):
     correo= models.CharField(max_length=100)
     contraseña= models.CharField(max_length=100)
     #metodos
-    def _str_(Self):
-       #define el nombre de como se identifica
-       return Self.nombres
+    def __str__(self):
+        return self.nombres
 
 class TipoCarteraAhorro(models.Model):
 
@@ -23,6 +24,7 @@ class TipoCarteraAhorro(models.Model):
     #metodos
     def __str__(self):
         return self.TipoCartera
+    
 
 class CarteraAhorro(models.Model):
     #Atributos
@@ -31,6 +33,8 @@ class CarteraAhorro(models.Model):
     fecha=models.DateTimeField()
     cantidad=models.IntegerField(null=True)
     TipoCartera=models.ForeignKey(TipoCarteraAhorro, on_delete=models.CASCADE)
+    Perfil=models.ForeignKey(Perfil, on_delete=SET_NULL, null=True)
+    
 
     #metodos
     def __str__(self):
